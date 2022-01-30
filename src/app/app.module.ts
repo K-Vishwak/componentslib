@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { FiltersComponent } from './filters/filters.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './common/header/header.component';
-import { FooterComponent } from '.common/footer/footer.component';
+import { FooterComponent } from './common/footer/footer.component';
 
 @NgModule({
   declarations: [
