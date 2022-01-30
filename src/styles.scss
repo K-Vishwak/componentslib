@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+h3.h3 {
+    text-align: left;
+    // margin: 1em;
+    text-transform: capitalize;
+    font-size: 24px;
+}
