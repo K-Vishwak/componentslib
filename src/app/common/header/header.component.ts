@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  scrolly;
+
   constructor() { }
 
   ngOnInit(): void {
+    window.addEventListener('scroll', this.scrollEvent, true);
+  }
+
+  scrollEvent = (event: any): void => {
+    this.scrolly = event.target.scrollingElement.scrollTop;
   }
 
 }
