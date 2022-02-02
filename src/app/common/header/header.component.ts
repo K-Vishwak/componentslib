@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -15,6 +15,7 @@ export class HeaderComponent implements OnInit {
     window.addEventListener('scroll', this.scrollEvent, true);
   }
 
+  @HostListener('scroll', ['$event']) 
   scrollEvent = (event: any): void => {
     this.scrolly = event.target.scrollingElement.scrollTop;
   }
