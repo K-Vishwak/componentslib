@@ -1,0 +1,75 @@
+.test {
+    color: red;
+}
+
+p {
+    display: inline;
+}
+
+div {
+    position: relative;
+    top: 3rem;
+    left: 3rem;
+    display: inline-block;
+}
+
+.text1 {
+    visibility: hidden;
+    position: absolute;
+    top: -5px;
+    text-align: center;
+    z-index: 1;
+    left: 105%;
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+    border-radius: 6px;
+    width: 120px;
+}
+
+.text1::after {
+  content: " ";
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent red transparent transparent;
+}
+
+div:hover .text1 {
+    visibility: visible;
+}
+
+.text2 {
+    position: relative;
+    left: 50%;
+}
+
+.text3 {
+    position: relative;
+    left: 91.5%;
+}
+.text4 {
+    position: relative;
+    top: 50%;
+}
+
+.text5 {
+    
+}
+
+.text6 {
+    
+}
+.text7 {
+
+    
+}
+.text8 {
+    
+}
+.text9 {
+    
+}

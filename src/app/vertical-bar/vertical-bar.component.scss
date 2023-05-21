@@ -1,0 +1,36 @@
+.vertical {
+    width: 15rem;
+    background-color: lightgray;
+    p {
+        width: 15rem;
+        height: 15px;
+        i {
+            font-size: 30px;
+            float: right;
+            cursor: pointer;
+            margin: 4px;
+            margin-right: 12px;
+        }
+        .ham {
+            color: black;
+        }
+    }
+
+    .list {
+        list-style-type: none;
+        margin-left: -30px;
+
+        >li {
+            padding: 10px;
+            text-align: center;
+            width: 15rem;
+            border-bottom: none;
+            cursor: pointer;
+
+            &:hover {
+                background-color: gray;
+            }
+        }
+
+    }
+}

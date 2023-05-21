@@ -1,0 +1,6 @@
+<div class="vertical">
+    <p *ngIf="!isClosed"><i class="fa fa-close" (click)="isClosed = !isClosed"></i></p>
+    <ul class="list" *ngIf="!isClosed">
+        <li *ngFor="let item of list">{{item}}</li>
+    </ul>
+</div>

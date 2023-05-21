@@ -15,6 +15,9 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "swiper_angular": ["../node_modules/swiper/angular"]
+    }
   }
 }

@@ -1,0 +1,18 @@
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    border: 1px solid grey;
+    margin: 5px 5px 0 5px;
+    > li {
+        display: inline;
+        padding: 11px;
+        border-right: inherit;
+        opacity: 0.7;
+        cursor: pointer;
+        &:hover {
+            background-color: grey;
+            opacity: 1;
+        }
+    }
+}
